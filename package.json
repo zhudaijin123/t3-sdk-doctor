@@ -1,0 +1,35 @@
+{
+  "name": "t3-sdk-doctor",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A diagnostic agent for Terminal 3 SDK compatibility, security, and onboarding.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "doctor": "tsx src/cli.ts",
+    "matrix": "tsx src/runtime-matrix.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@terminal3/bbs_vc": "^0.2.36",
+    "@terminal3/revoke_vc": "^0.1.33",
+    "@terminal3/t3n-sdk": "^3.5.0",
+    "@terminal3/vc_core": "^0.0.37",
+    "@terminal3/verify_vc": "^0.0.38",
+    "@terminal3/verify_vp": "^0.0.48",
+    "commander": "^15.0.0",
+    "semver": "^7.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/semver": "^7.7.1",
+    "tsx": "^4.22.4",
+    "typescript": "^5.9.0",
+    "vitest": "^4.0.0"
+  }
+}

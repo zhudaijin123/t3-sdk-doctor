@@ -1,0 +1,36 @@
+{
+  "credential": {
+    "@context": [
+      "https://www.w3.org/ns/credentials/v2"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "T3SdkHealthCredential"
+    ],
+    "issuer": "did:key:zUC7GVTr7e1DbTngs18q1wKKuwEQzbcDxLf53yB66javM16cMwVkCtvY2EJ27WZdKxDJPPMWaqBMWvJ332vBCAq7UqzukMjKF2DxdusjZCu5uZe6rYNC85719m5REZgQs88JkRf",
+    "validFrom": "2026-06-12T04:31:05.880Z",
+    "validUntil": "",
+    "credentialSubject": {
+      "id": "did:t3-sdk-doctor:667682f5-12eb-4664-a974-1dc4c0d7c9e2",
+      "generatedAt": "2026-06-12T04:31:05.873Z",
+      "platform": "win32/x64",
+      "node": "v22.22.2",
+      "passedChecks": 11,
+      "warningChecks": 0,
+      "failedChecks": 2
+    },
+    "id": "urn:uuid:35521ba5-5be3-4d34-860d-f3ca229a6415",
+    "proof": {
+      "type": "DataIntegrityProof",
+      "cryptosuite": "bbs-2023",
+      "created": "2026-06-12T04:31:05.880Z",
+      "verificationMethod": "did:key:zUC7GVTr7e1DbTngs18q1wKKuwEQzbcDxLf53yB66javM16cMwVkCtvY2EJ27WZdKxDJPPMWaqBMWvJ332vBCAq7UqzukMjKF2DxdusjZCu5uZe6rYNC85719m5REZgQs88JkRf",
+      "proofPurpose": "assertionMethod",
+      "proofValue": "2V0ChVhwoklW0y5LIxpeoY1s8pvOHjCLvaPqnGo9k-cWkk0FREpzq7nIEjFzfpq5C5VgNrkJMKVg9X44OT7IyqxonIH7xLuNJjBkG7KYma9urLMBCo4x5JoTWPaG1p7URXapIpy1ng-avITVXJin9XQoxPxyNFhAx8siYQ9SS_DMPw8HhdckgG2HjlFj1KJZKuT9Zc-I1rXhbHuAlW0rvE9m8V66azneMNyKRJbcDbkVaDLQ_mI8X1hgrSw8ZNhujTHj9vH8gXKlrv-A7GTNY_d-NZvvWUNXpC6wkqGUwXClq6jfA98_kUtaEqRrynmiOvHdiOHuG23wPUE06GQ9t9Lo9MyY5B2xFC48cCuR2cbWDSAWrPHgG28aWCB-bFLne7QJZvZd0GCDDKqAikaR7rlkcvOVlSxv8yS2GIZJL0Bjb250ZXh0Qy9pZEcvaXNzdWVyRS90eXBlSi92YWxpZEZyb21LL3ZhbGlkVW50aWw"
+    }
+  },
+  "verification": {
+    "isValid": true,
+    "message": "Verification successful"
+  }
+}

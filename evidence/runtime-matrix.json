@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-06-12T04:30:39.359Z",
+  "sdk": "@terminal3/t3n-sdk@3.5.2",
+  "advertisedNodeRange": ">=16.0.0",
+  "command": "npx -y node@<major> repro/load-wasm.mjs",
+  "results": [
+    {
+      "requestedNode": "16",
+      "passed": false,
+      "stdout": "",
+      "stderr": "node:internal/process/esm_loader:97\r\n    internalBinding('errors').triggerUncaughtException(\r\n                              ^\r\n\r\n[CompileError: WebAssembly.compile(): Compiling function #11:\"_ZN102_$LT$time..error..invalid_format_descript...\" failed: expected table index 0, found 0 @+4011]"
+    },
+    {
+      "requestedNode": "18",
+      "passed": true,
+      "stdout": "{\"node\":\"v18.20.8\",\"platform\":\"win32\",\"architecture\":\"x64\",\"loaded\":true,\"durationMs\":58,\"keys\":[\"flow\",\"session\"]}",
+      "stderr": ""
+    },
+    {
+      "requestedNode": "20",
+      "passed": true,
+      "stdout": "{\"node\":\"v20.20.2\",\"platform\":\"win32\",\"architecture\":\"x64\",\"loaded\":true,\"durationMs\":32,\"keys\":[\"flow\",\"session\"]}",
+      "stderr": ""
+    },
+    {
+      "requestedNode": "22",
+      "passed": true,
+      "stdout": "{\"node\":\"v22.22.3\",\"platform\":\"win32\",\"architecture\":\"x64\",\"loaded\":true,\"durationMs\":27,\"keys\":[\"flow\",\"session\"]}",
+      "stderr": ""
+    }
+  ]
+}

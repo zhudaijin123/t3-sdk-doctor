@@ -1,0 +1,370 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-12T04:31:05.873Z",
+  "environment": {
+    "platform": "win32",
+    "architecture": "x64",
+    "node": "v22.22.2",
+    "cwd": "C:\\Users\\Administrator\\Documents\\New project 2"
+  },
+  "totals": {
+    "pass": 11,
+    "warn": 0,
+    "fail": 2
+  },
+  "results": [
+    {
+      "id": "environment.node-version",
+      "title": "Supported Node.js runtime",
+      "category": "environment",
+      "status": "pass",
+      "summary": "Node 22.22.2 satisfies the diagnostic agent requirement."
+    },
+    {
+      "id": "environment.windows",
+      "title": "Windows compatibility lane",
+      "category": "environment",
+      "status": "pass",
+      "summary": "Running the SDK checks on native Windows, a useful compatibility path for the challenge."
+    },
+    {
+      "id": "import.@terminal3/t3n-sdk",
+      "title": "Import @terminal3/t3n-sdk",
+      "category": "import",
+      "status": "pass",
+      "summary": "Imported version 3.5.2 with 103 public exports.",
+      "evidence": {
+        "details": {
+          "manifestPath": "C:\\Users\\Administrator\\Documents\\New project 2\\node_modules\\@terminal3\\t3n-sdk\\package.json",
+          "exportNames": [
+            "AGENT_PUBKEY_LEN",
+            "AuthMethod",
+            "AuthenticationError",
+            "ContractResponseError",
+            "DEFAULT_INDIVIDUAL_THRESHOLD_CENTS",
+            "DEFAULT_KYC_POLL_CADENCE",
+            "DELEGATION_CREDENTIAL_DOMAIN",
+            "DELEGATION_INVOCATION_DOMAIN",
+            "DelegationCustodialClient",
+            "ETH_SIG_LEN",
+            "HandshakeError",
+            "HttpTransport",
+            "KycStatusTimeoutError",
+            "LogLevel",
+            "MAX_FUNCTIONS_PER_CREDENTIAL",
+            "MockTransport",
+            "NODE_URLS",
+            "NONCE_LEN",
+            "OrgDataClient",
+            "PAYROLL_FUNCTIONS_V1",
+            "REQUEST_HASH_LEN",
+            "RpcError",
+            "SessionExpiredError",
+            "SessionOrgDataClient",
+            "SessionStateError",
+            "SessionStatus",
+            "T3nClient",
+            "T3nError",
+            "TERMINAL_KYC_STATUSES",
+            "TenantClient",
+            "TenantContractsNamespace",
+            "TenantMapsNamespace",
+            "TenantNamespace",
+            "TenantSdkValidationError",
+            "TenantTokenNamespace",
+            "UnsupportedTenantSdkOperationError",
+            "UserUpsertError",
+            "VC_ID_LEN",
+            "WasmError",
+            "_b64uEncode",
+            "assertShape",
+            "b64uDecodeStrict",
+            "b64uEncodeBytes",
+            "buildDelegationCredential",
+            "buildInvocationPreimage",
+            "buildPayrollDirectInvocation",
+            "buildPayrollInvocation",
+            "bytesToString",
+            "canonicalTenantName",
+            "canonicaliseCredential",
+            "canonicaliseRequest",
+            "clearKeyCache",
+            "compactDidFromBytes",
+            "createDefaultHandlers",
+            "createEthAuthInput",
+            "createLogger",
+            "createMlKemPublicKeyHandler",
+            "createOidcAuthInput",
+            "createOrgDataClientFromSession",
+            "createRandomHandler",
+            "decodeWasmErrorMessage",
+            "eip191Digest",
+            "ethRecoverEip191",
+            "eth_get_address",
+            "extractWasmError",
+            "fetchDkgAttestation",
+            "fetchMlKemPublicKey",
+            "generateRandomString",
+            "generateUUID",
+            "getEnvironment",
+            "getEnvironmentName",
+            "getGlobalLogLevel",
+            "getLogger",
+            "getNodeUrl",
+            "getScriptVersion",
+            "isDataGetResponse",
+            "isDataListResponse",
+            "isMutationResponse",
+            "isObject",
+            "isOrgContractGrants",
+            "isOrgPolicyMeta",
+            "isOrgWriters",
+            "loadConfig",
+            "loadWasmComponent",
+            "metamask_get_address",
+            "metamask_sign",
+            "parseContractResponse",
+            "redactSecrets",
+            "redactSecretsFromJson",
+            "requestHash",
+            "revokeDelegation",
+            "setEnvironment",
+            "setGlobalLogLevel",
+            "setNodeUrl",
+            "signAgentInvocation",
+            "signCredential",
+            "stringToBytes",
+            "tenantDidHex",
+            "validateConfig",
+            "validateCredentialBody",
+            "validateTail",
+            "verifyDkgAttestation",
+            "verifyTdxQuote"
+          ]
+        }
+      }
+    },
+    {
+      "id": "import.@terminal3/vc_core",
+      "title": "Import @terminal3/vc_core",
+      "category": "import",
+      "status": "pass",
+      "summary": "Imported version 0.0.37 with 15 public exports.",
+      "evidence": {
+        "details": {
+          "manifestPath": "C:\\Users\\Administrator\\Documents\\New project 2\\node_modules\\@terminal3\\vc_core\\package.json",
+          "exportNames": [
+            "BLS_G1_GROUP_SIZE",
+            "DID",
+            "DIDWithKey",
+            "ECDSA_GROUP_SIZE",
+            "RawSigningKey",
+            "adjustIndex",
+            "getEthAddressFromIdentifier",
+            "getMethodIdentifier",
+            "getPublicKeyFromDidKey",
+            "isDIDString",
+            "prepareCredentialPayload",
+            "randomKey32Bytes",
+            "randomKeyBls",
+            "randomKeyEcdsa",
+            "stripHexPrefix"
+          ]
+        }
+      }
+    },
+    {
+      "id": "import.@terminal3/bbs_vc",
+      "title": "Import @terminal3/bbs_vc",
+      "category": "import",
+      "status": "pass",
+      "summary": "Imported version 0.2.36 with 28 public exports.",
+      "evidence": {
+        "details": {
+          "manifestPath": "C:\\Users\\Administrator\\Documents\\New project 2\\node_modules\\@terminal3\\bbs_vc\\package.json",
+          "exportNames": [
+            "BbsDID",
+            "BlsSigningKey",
+            "bbsDidFromPublicKey",
+            "blsG2PublicKeyFromPrivateKey",
+            "blsSignMessages",
+            "canonProof",
+            "canonicalizeAndGroup",
+            "createBbsCredential",
+            "createHmac",
+            "createShuffledIdLabelMapFunction",
+            "decodeCbor",
+            "encodeCbor",
+            "getGroupedMessages",
+            "getMandatoryPointers",
+            "getMessages",
+            "getMessagesW3c",
+            "jsonPointerToPaths",
+            "localLoader",
+            "makeBBSPlusProof",
+            "makeBBSPlusW3cProof",
+            "randomBytes",
+            "relabelBlankNodes",
+            "removeDuplicates",
+            "selectJsonLd",
+            "skolemizeExpandedJsonLd",
+            "stripBlankNodePrefixes",
+            "verifyBbsVCW3c",
+            "verifyBbsVc"
+          ]
+        }
+      }
+    },
+    {
+      "id": "import.@terminal3/verify_vc",
+      "title": "Import @terminal3/verify_vc",
+      "category": "import",
+      "status": "pass",
+      "summary": "Imported version 0.0.38 with 1 public exports.",
+      "evidence": {
+        "details": {
+          "manifestPath": "C:\\Users\\Administrator\\Documents\\New project 2\\node_modules\\@terminal3\\verify_vc\\package.json",
+          "exportNames": [
+            "verifyVc"
+          ]
+        }
+      }
+    },
+    {
+      "id": "import.@terminal3/verify_vp",
+      "title": "Import @terminal3/verify_vp",
+      "category": "import",
+      "status": "pass",
+      "summary": "Imported version 0.0.48 with 6 public exports.",
+      "evidence": {
+        "details": {
+          "manifestPath": "C:\\Users\\Administrator\\Documents\\New project 2\\node_modules\\@terminal3\\verify_vp\\package.json",
+          "exportNames": [
+            "createLabelMapFunction",
+            "decodeCborProof",
+            "encodeCborProof",
+            "labelReplacementCanonicalizeJsonLd",
+            "verifyBbsVpW3c",
+            "verifyPresentation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "import.@terminal3/revoke_vc",
+      "title": "Import @terminal3/revoke_vc",
+      "category": "import",
+      "status": "pass",
+      "summary": "Imported version 0.1.33 with 2 public exports.",
+      "evidence": {
+        "details": {
+          "manifestPath": "C:\\Users\\Administrator\\Documents\\New project 2\\node_modules\\@terminal3\\revoke_vc\\package.json",
+          "exportNames": [
+            "isRevoked",
+            "revokeVC"
+          ]
+        }
+      }
+    },
+    {
+      "id": "packaging.t3n-sdk-metadata",
+      "title": "Published SDK support metadata",
+      "category": "packaging",
+      "status": "pass",
+      "summary": "The published SDK exposes repository, support, homepage, and Node runtime metadata.",
+      "evidence": {
+        "details": {
+          "packageName": "@terminal3/t3n-sdk",
+          "version": "3.5.2",
+          "manifestPath": "C:\\Users\\Administrator\\Documents\\New project 2\\node_modules\\@terminal3\\t3n-sdk\\package.json",
+          "missing": []
+        }
+      }
+    },
+    {
+      "id": "packaging.t3n-sdk-engine-floor",
+      "title": "SDK Node.js engine floor matches direct dependencies",
+      "category": "packaging",
+      "status": "fail",
+      "summary": "The SDK declares Node >=16.0.0, but 3 direct dependencies require a newer runtime.",
+      "remediation": "Raise @terminal3/t3n-sdk engines.node to the highest direct-dependency floor or pin dependencies compatible with the advertised runtime.",
+      "evidence": {
+        "expected": "Every direct dependency supports >=16.0.0.",
+        "actual": "@noble/curves@2.2.0 requires Node >= 20.19.0; @noble/hashes@2.2.0 requires Node >= 20.19.0; canonicalize@3.0.0 requires Node >=18",
+        "details": {
+          "sdkVersion": "3.5.2",
+          "declaredNodeRange": ">=16.0.0",
+          "incompatibleDependencies": [
+            {
+              "name": "@noble/curves",
+              "version": "2.2.0",
+              "node": ">= 20.19.0"
+            },
+            {
+              "name": "@noble/hashes",
+              "version": "2.2.0",
+              "node": ">= 20.19.0"
+            },
+            {
+              "name": "canonicalize",
+              "version": "3.0.0",
+              "node": ">=18"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "behavior.wasm-load",
+      "title": "Load the T3n WASM component",
+      "category": "behavior",
+      "status": "pass",
+      "summary": "The WASM component loaded on win32 in 382 ms.",
+      "evidence": {
+        "details": {
+          "durationMs": 382,
+          "platform": "win32",
+          "topLevelKeys": [
+            "flow",
+            "session"
+          ]
+        }
+      }
+    },
+    {
+      "id": "behavior.bbs-health-attestation",
+      "title": "Issue and verify a BBS+ SDK health credential",
+      "category": "behavior",
+      "status": "pass",
+      "summary": "Issued and verified a signed BBS+ diagnostic credential with the Terminal 3 VC SDK.",
+      "evidence": {
+        "details": {
+          "proofType": "DataIntegrityProof",
+          "cryptosuite": "bbs-2023",
+          "verification": {
+            "isValid": true,
+            "message": "Verification successful"
+          }
+        }
+      }
+    },
+    {
+      "id": "security.npm-audit",
+      "title": "Terminal 3 dependency security audit",
+      "category": "security",
+      "status": "fail",
+      "summary": "npm audit found 23 dependency vulnerabilities, including 8 high/critical findings.",
+      "remediation": "Update vulnerable direct and transitive dependencies, then publish patched SDK versions.",
+      "evidence": {
+        "details": {
+          "info": 0,
+          "low": 3,
+          "moderate": 12,
+          "high": 8,
+          "critical": 0,
+          "total": 23
+        }
+      }
+    }
+  ]
+}
