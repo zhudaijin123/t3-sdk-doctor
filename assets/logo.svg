@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="480" viewBox="0 0 480 480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071426"/>
+      <stop offset="1" stop-color="#16345b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#44d7b6"/>
+      <stop offset="1" stop-color="#53a8ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="480" rx="92" fill="url(#bg)"/>
+  <circle cx="390" cy="85" r="130" fill="#245384" opacity=".35"/>
+  <circle cx="75" cy="420" r="135" fill="#087269" opacity=".3"/>
+  <rect x="75" y="60" width="330" height="330" rx="62" fill="#0b2034" stroke="#315d7c" stroke-width="6"/>
+  <path d="M155 190h54v-54h34v54h54v34h-54v54h-34v-54h-54z" fill="url(#accent)"/>
+  <path d="M320 147l26 26-92 92-48 10 10-48z" fill="#eef8ff"/>
+  <circle cx="334" cy="330" r="28" fill="#44d7b6"/>
+  <path d="M323 330l8 8 16-18" fill="none" stroke="#071426" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="240" y="443" text-anchor="middle" fill="#dcefff" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700">T3 SDK DOCTOR</text>
+</svg>
